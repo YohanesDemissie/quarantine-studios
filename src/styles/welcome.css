@@ -70,3 +70,34 @@
 .welcome-button-container:hover {
 	background-color: rgba(0, 0, 0, 0.9);
 }
+
+@media only screen and (max-width: 770px) {
+	.welcome-title {
+		font-size: 35px;
+		padding-top: 200px;
+	}
+
+	.welcome-button-container {
+		margin-top: 30%;
+		margin-left: 20%;
+		margin-right: 20%;
+		padding: 20px;
+		background-color: rgba(0, 0, 0, 0.9);
+	}
+
+	.first-line {
+		font-size: 10px;
+	}
+
+	.second-line {
+		font-size: 15px;
+	}
+
+	.third-line {
+		font-size: 20px;
+	}
+
+	.fourth-line {
+		font-size: 25px;
+	}
+}
