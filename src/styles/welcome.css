@@ -52,7 +52,7 @@
 	margin-top: 3%;
 	text-align: center;
 	/* margin: 0px; */
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.6);
 	color: white;
 	border: 0px;
 
@@ -67,6 +67,6 @@
 	border-radius: 20px;
 }
 
-.link:hover {
-	color: rgba(0, 0, 0, 1);
+.welcome-button-container:hover {
+	background-color: rgba(0, 0, 0, 0.9);
 }
