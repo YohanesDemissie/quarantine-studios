@@ -1,0 +1,52 @@
+.contact-container {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-right: 20%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-left: 20%;
+}
+
+input {
+	font-size: 20px;
+	padding: 10px;
+	width: 60%;
+	height: 40%;
+}
+
+.input-message-form {
+	font-size: 25px;
+	height: 200px;
+	width: 62%;
+	margin-bottom: 30px;
+}
+
+.submit-button {
+	width: 10%;
+}
+
+@media only screen and (max-width: 770px) {
+	.contact-container {
+		margin-left: 5%;
+		margin-right: 5%;
+		font-size: 15px;
+	}
+
+	input {
+		width: 85%;
+		border-radius: 20px;
+	}
+
+	.input-message-form {
+		width: 90%;
+		border-radius: 10px;
+	}
+
+	.submit-button {
+		width: 100px;
+		background-color: black;
+		color: white;
+		border: 0;
+		border-radius: 50px;
+	}
+}
