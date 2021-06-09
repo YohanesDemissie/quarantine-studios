@@ -4,14 +4,14 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 // import Services from './pages/Services';
 import About from './pages/About';
-// import Welcome from './pages/Welcome';
+import Welcome from './pages/Welcome';
 import ThankYou from './pages/ThankYou';
 
 function App() {
   return (
     <Router>
       <React.Fragment>
-        {/* <Route exact path="/" component={Welcome} /> */}
+        <Route exact path="/" component={Welcome} />
         <Route path="/home" component={Home} />
         {/* <Route path="/services" component={Services} /> */}
         {/* <Route path="/videos" component={Videos} /> */}
