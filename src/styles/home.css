@@ -7,3 +7,25 @@
 	padding-bottom: 20%;
 	padding-top: 10%;
 }
+
+.customer-reviews {
+	display: inline-block;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding-top: 10%;
+	border-radius: 5%;
+}
+
+.artist-images {
+	width: 90%;
+	height: 100%;
+	border-radius: 5%;
+}
+
+.artist-text {
+	width: 80%;
+	margin-left: 10%;
+}
