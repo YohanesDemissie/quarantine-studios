@@ -1,3 +1,7 @@
+/* div {
+	background-color: gray;
+} */
+
 .navigation {
 	background-color: gray;
 	color: white;
@@ -9,6 +13,36 @@
 .nav-title {
 	font-size: 40px;
 	margin: 0;
+	color: white;
+}
+
+.nav-title-mobile {
+	padding-top: 5%;
+	margin: 0px;
+}
+
+.mobile-title-logo-container {
+	background-color: gray;
+	color: white;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	padding-right: 6%;
+}
+
+.logo-mobile {
+	/* text-align: center; */
+	margin-left: 0px;
+	width: 15%;
+}
+
+.menu-button {
+	background-color: grey;
+	width: 10%;
+	/* padding-right: 100%; */
+	margin-top: 5%;
+	margin-left: 5%;
+	float: left;
 }
 
 ul {
@@ -64,5 +98,14 @@ ul {
 
 	.logo {
 		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.text {
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+		text-decoration-line: line-through;
+		width: 10px;
 	}
 }

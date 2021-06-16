@@ -1,13 +1,17 @@
 import React from 'react';
 import Navbar from './Navbar';
+import useMediaQuery from 'use-mediaquery';
+
 import Contact from './Contact';
 import '../styles/home.css'
 import Footer from './Footer';
 
 const Home = () => {
+    const matches = useMediaQuery("(max-width: 40em)");
+
   return(
     <div>
-      <Navbar />
+      <Navbar match={matches} />
       <div className="home-container">
         {/* <h1>Home</h1> */}
         <div className="customer-reviews">
