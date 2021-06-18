@@ -4,8 +4,26 @@
 	background-size: cover;
 	text-align: center;
 	background-attachment: fixed;
-	padding-bottom: 20%;
-	padding-top: 10%;
+	/* padding-bottom: 20%; */
+	/* padding-top: 10%; */
+}
+
+.log-in-container {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+	padding: 5%;
+}
+
+.log-in-button {
+	background-color: #222222;
+	color: white;
+	padding: 3%;
+	padding-left: 35px;
+	padding-right: 35px;
+	border: none;
+	font-size: 15px;
+	/* border-radius: 10px; */
 }
 
 .customer-reviews {

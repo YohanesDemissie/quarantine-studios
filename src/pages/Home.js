@@ -14,6 +14,10 @@ const Home = () => {
       <Navbar match={matches} />
       <div className="home-container">
         {/* <h1>Home</h1> */}
+        <div className="log-in-container">
+          <button className="log-in-button">Log in</button>
+          <button className="log-in-button">Sign up</button>
+        </div>
         <div className="customer-reviews">
           <img className="artist-images" src="https://us.hola.com/images/0268-12191511426b-2d7aa59dc806-1000/horizontal-1200/drake.jpg" alt="Drake" />
           <p className="artist-text">Greatest recording experience in my life</p>

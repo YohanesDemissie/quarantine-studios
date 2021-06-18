@@ -9,14 +9,17 @@ const Navbar = ({ match }) => {
     <div>
       {match ? (
         <>
+        <div className="mobile-menu-container">
           <img src={menu} className="menu-button" />
         <div class="mobile-title-logo-container">
-          <p className="nav-title-mobile">Quarantine Studios Inc.</p>
-          <img className="logo-mobile" src={Logo} />
+          {/* <p className="nav-title-mobile">Quarantine Studios Inc.</p> */}
+          <img className="search-icon" src="https://icon-library.com/images/white-search-icon-transparent-background/white-search-icon-transparent-background-1.jpg" />
+          {/* <img className="logo-mobile" src={Logo} /> */}
+        </div>
+        <div className="nav-title-mobile">Quarantine Studios Inc.<hr className="title-breakline"/></div>
+        
         </div>
         </>
-      
-
     ) : (
         <div>
           <nav className="navigation">
